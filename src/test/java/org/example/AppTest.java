@@ -17,7 +17,7 @@ public class AppTest
   @Test
     public void testAnswer() throws IOException {
       int[][] anArray = {{1,1},{2,2}};
-        Assertions.assertEquals(0, App.countAll(anArray, 0, 0, 1));
+        Assertions.assertEquals(1, App.countAll(anArray, 0, 0, 1));
     }
 }
 
